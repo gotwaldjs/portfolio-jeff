@@ -24,13 +24,13 @@ nav a {
 }
 
 .header-banner {
-  background-color: #f1f1f1;
-  color: #333;
+  background-color: #262626;
+  color: #f4f4f4;
   padding: 1rem;
 }
 
 .header-banner h1 {
-  font-size: 3rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
