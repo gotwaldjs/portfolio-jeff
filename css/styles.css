@@ -39,7 +39,7 @@ nav a {
   margin-bottom: 0;
 }
 
-.body {
+body {
   margin: 0 !important;
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: #ff0000;
