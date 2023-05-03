@@ -31,12 +31,18 @@ nav a {
 
 .header-banner h1 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  line-height: 2.5rem;
+}
+
+.header-banner-roles-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 22px;
 }
 
 .header-banner p {
   font-size: 1rem;
-  margin-bottom: 0;
+  line-height: 1.5rem;
 }
 
 body {
