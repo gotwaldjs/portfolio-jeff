@@ -37,6 +37,7 @@ nav a {
 .header-banner-roles-heading {
   font-size: 1rem;
   font-weight: 600;
+  line-height: 0;
 }
 
 .header-banner-roles {
