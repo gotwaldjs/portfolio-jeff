@@ -71,28 +71,5 @@
   <!-- Include JavaScript file -->
   <script src="./components/header/header.js"></script>
   <script src="./components/card/card.js"></script>
-  <script>
-    // Fetch the card HTML code from the external file
-    const xhr = new XMLHttpRequest();
-    xhr.open('GET', './components/card/card.html');
-    xhr.onload = function() {
-      if (xhr.status === 200) {
-        // Define the custom element for the Card component
-        class MyCard extends HTMLElement {
-          constructor() {
-            super();
-  
-            // Create a shadow root for the custom element
-            const shadowRoot = this.attachShadow({ mode: 'open' });
-  
-            // Insert the card code into the shadow root
-            shadowRoot.innerHTML = xhr.responseText;
-          }
-        }
-        customElements.define('my-card', MyCard);
-      }
-    };
-    xhr.send();
-  </script>
 </body>
 </html>
