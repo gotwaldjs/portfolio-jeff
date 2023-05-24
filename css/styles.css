@@ -49,3 +49,13 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: #ff0000;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
